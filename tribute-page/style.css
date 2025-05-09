@@ -1,0 +1,66 @@
+body {
+  font-family: "Segoe UI", sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #ffeaf4; /* soft pink background */
+  color: #333;
+  text-align: center;
+}
+
+#main {
+  padding: 2rem;
+  max-width: 800px;
+  margin: auto;
+}
+
+#title {
+  font-size: 2.8rem;
+  font-weight: bold;
+  color: #d4af37; /* gold title */
+  margin-bottom: 1.5rem;
+}
+
+#img-div {
+  margin: 2rem 0;
+}
+
+#image {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+  border-radius: 16px;
+  box-shadow: 0 6px 16px rgba(240, 110, 169, 0.3);
+}
+
+#img-caption {
+  margin-top: 0.75rem;
+  font-style: italic;
+  color: #914e75;
+}
+
+#tribute-info {
+  font-size: 1.1rem;
+  margin: 2rem 0;
+  text-align: justify;
+  color: #4b2e39;
+}
+
+#tribute-link {
+  display: inline-block;
+  margin-top: 1.5rem;
+  padding: 0.7rem 1.4rem;
+  background-color: #f06ea9; /* solid pink button */
+  color: white;
+  font-weight: bold;
+  text-decoration: none;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(240, 110, 169, 0.3);
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+#tribute-link:hover {
+  background-color: #d95691;
+  transform: scale(1.05);
+}
+
